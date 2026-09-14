@@ -73,7 +73,7 @@ module.exports = {
     historyApiFallback: true,
     overlay: true,
     stats: "minimal",
-    contentBase: __dirname + "/public",
+    contentBase: __dirname + "/docs",
   },
   devtool: "inline-source-map",
 };
