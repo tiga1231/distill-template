@@ -11,7 +11,7 @@ module.exports = {
     extensions: [".js", ".html", ".npy"],
   },
   output: {
-    path: __dirname + "/public",
+    path: __dirname + "/docs",
     filename: "[name].bundle.js",
     chunkFilename: "[name].[id].js",
   },
